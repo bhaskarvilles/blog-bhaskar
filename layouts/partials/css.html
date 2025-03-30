@@ -1,13 +1,23 @@
 {{ $style := resources.Get "css/style.css" }}
 {{ $custom := resources.Get "css/custom.css" }}
 
-{{ if hugo.IsServer }}
-    {{ $style = $style | resources.Fingerprint "md5" }}
-    {{ $custom = $custom | resources.Fingerprint "md5" }}
-{{ else }}
-    {{ $style = $style | resources.Fingerprint "md5" | resources.Minify }}
-    {{ $custom = $custom | resources.Fingerprint "md5" | resources.Minify }}
+{{ if $style }}
+    {{ if hugo.IsServer }}
+        {{ $style = $style | resources.Fingerprint "md5" }}
+    {{ else }}
+        {{ $style = $style | resources.Fingerprint "md5" | resources.Minify }}
+    {{ end }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 {{ end }}
 
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-<link rel="stylesheet" href="{{ $custom.RelPermalink }}"> 
+{{ if $custom }}
+    {{ if hugo.IsServer }}
+        {{ $custom = $custom | resources.Fingerprint "md5" }}
+    {{ else }}
+        {{ $custom = $custom | resources.Fingerprint "md5" | resources.Minify }}
+    {{ end }}
+    <link rel="stylesheet" href="{{ $custom.RelPermalink }}">
+{{ end }}
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="/css/style.css"> 
