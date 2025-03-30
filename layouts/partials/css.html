@@ -1,0 +1,13 @@
+{{ $style := resources.Get "css/style.css" }}
+{{ $custom := resources.Get "css/custom.css" }}
+
+{{ if hugo.IsServer }}
+    {{ $style = $style | resources.Fingerprint "md5" }}
+    {{ $custom = $custom | resources.Fingerprint "md5" }}
+{{ else }}
+    {{ $style = $style | resources.Fingerprint "md5" | resources.Minify }}
+    {{ $custom = $custom | resources.Fingerprint "md5" | resources.Minify }}
+{{ end }}
+
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<link rel="stylesheet" href="{{ $custom.RelPermalink }}"> 

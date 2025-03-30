@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source on Ram&#39;s Website</title>
-    <link>http://localhost:1313/categories/open-source/</link>
+    <link>https://secretcoder.org/categories/open-source/</link>
     <description>Recent content in Open Source on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building the Future of OpenSearch: Community-Driven Innovation</title>
-      <link>http://localhost:1313/2024/11/building-the-future-of-opensearch-community-driven-innovation/</link>
+      <link>https://secretcoder.org/2024/11/building-the-future-of-opensearch-community-driven-innovation/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/11/building-the-future-of-opensearch-community-driven-innovation/</guid>
+      <guid>https://secretcoder.org/2024/11/building-the-future-of-opensearch-community-driven-innovation/</guid>
       <description>&lt;p&gt;OpenSearch, the open-source search and analytics suite forked from Elasticsearch, has been making significant strides in building a vibrant community-driven ecosystem. Let&amp;rsquo;s explore how OpenSearch is shaping the future of search technology through collaboration and innovation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-community-initiatives&#34;&gt;Key Community Initiatives&lt;/h2&gt;&#xA;&lt;p&gt;OpenSearch has embraced several important initiatives to foster community growth:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Transparent Development Process&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Public roadmap discussions&lt;/li&gt;&#xA;&lt;li&gt;Open design proposals&lt;/li&gt;&#xA;&lt;li&gt;Community-driven feature prioritization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Technical Innovation Focus&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Enhanced search capabilities&lt;/li&gt;&#xA;&lt;li&gt;Advanced analytics features&lt;/li&gt;&#xA;&lt;li&gt;Improved security frameworks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;recent-developments&#34;&gt;Recent Developments&lt;/h2&gt;&#xA;&lt;p&gt;The project has seen exciting progress in multiple areas:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resilience in Custom Linux Distributions: A Solution to Microsoft Windows Outages</title>
-      <link>http://localhost:1313/2024/07/resilience-in-custom-linux-distributions-a-solution-to-microsoft-windows-outages/</link>
+      <link>https://secretcoder.org/2024/07/resilience-in-custom-linux-distributions-a-solution-to-microsoft-windows-outages/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/07/resilience-in-custom-linux-distributions-a-solution-to-microsoft-windows-outages/</guid>
+      <guid>https://secretcoder.org/2024/07/resilience-in-custom-linux-distributions-a-solution-to-microsoft-windows-outages/</guid>
       <description>&lt;p&gt;Microsoft Windows outages can be disruptive and costly, underscoring the need for more resilient alternatives. Custom Linux distributions offer robust solutions, tailored to specific needs, reducing the risk of widespread system failures.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;a href=&#34;https://images.moneycontrol.com/static-mcnews/2024/07/20240719092012_windows.jpg&#34; data-dimbox data-dimbox-caption=&#34;Blue Screen Of Death&#34;&gt;&#xA;    &lt;img src=&#34;https://images.moneycontrol.com/static-mcnews/2024/07/20240719092012_windows.jpg&#34; alt=&#34;Blue Screen Of Death&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-impact-of-microsoft-windows-outages&#34;&gt;The Impact of Microsoft Windows Outages&lt;/h3&gt;&#xA;&lt;p&gt;Microsoft Windows is widely used across various sectors, from personal computing to enterprise environments. However, its popularity also makes it a prime target for cyberattacks and system failures. Recent outages have shown that even minor disruptions can lead to significant productivity losses, highlighting the need for more robust and adaptable operating systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contributions to Open Source Projects</title>
-      <link>http://localhost:1313/2024/07/contributions-to-open-source-projects/</link>
+      <link>https://secretcoder.org/2024/07/contributions-to-open-source-projects/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/07/contributions-to-open-source-projects/</guid>
+      <guid>https://secretcoder.org/2024/07/contributions-to-open-source-projects/</guid>
       <description>&lt;h1 id=&#34;contributions-overview&#34;&gt;Contributions Overview&lt;/h1&gt;&#xA;&lt;h2 id=&#34;nationalsecurityagencyghidra-3802&#34;&gt;&lt;a href=&#34;https://github.com/NationalSecurityAgency/ghidra/pull/3802&#34;&gt;NationalSecurityAgency/ghidra #3802&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Title:&lt;/strong&gt; Update run configurations and documentation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Summary:&lt;/strong&gt; This pull request updates the run configurations and documentation for Ghidra. It includes changes to enhance usability and address issues with existing configurations. The update aims to streamline the setup process for developers working with Ghidra.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;details&#34;&gt;Details:&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This PR includes updates to the run configurations for Ghidra, addressing issues with existing setups and enhancing usability for developers.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;filecoin-projectlotus-8204&#34;&gt;&lt;a href=&#34;https://github.com/filecoin-project/lotus/pull/8204&#34;&gt;filecoin-project/lotus #8204&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Title:&lt;/strong&gt; feat: add snapshot creation to lotus-miner&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Summary:&lt;/strong&gt; This pull request adds a new feature to the Lotus miner, enabling snapshot creation. This feature allows for capturing the state of the miner at a specific point in time, which can be useful for backups, state inspection, and recovery purposes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;details-1&#34;&gt;Details:&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Adds functionality for creating snapshots of the miner&amp;rsquo;s state, facilitating easier backups and state inspections.&lt;/p&gt;</description>
     </item>
   </channel>

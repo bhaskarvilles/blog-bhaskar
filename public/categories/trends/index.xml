@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trends on Ram&#39;s Website</title>
-    <link>http://localhost:1313/categories/trends/</link>
+    <link>https://secretcoder.org/categories/trends/</link>
     <description>Recent content in Trends on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 08 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/trends/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/categories/trends/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trendlines With Breaks Script</title>
-      <link>http://localhost:1313/2022/10/trendlines-with-breaks-script/</link>
+      <link>https://secretcoder.org/2022/10/trendlines-with-breaks-script/</link>
       <pubDate>Sat, 08 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2022/10/trendlines-with-breaks-script/</guid>
+      <guid>https://secretcoder.org/2022/10/trendlines-with-breaks-script/</guid>
       <description>&lt;!-- TradingView Chart BEGIN --&gt;&#xA;&lt;script type=&#34;text/javascript&#34; src=&#34;https://s3.tradingview.com/tv.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script type=&#34;text/javascript&#34;&gt;&#xA;var tradingview_embed_options = {};&#xA;tradingview_embed_options.width = &#39;640&#39;;&#xA;tradingview_embed_options.height = &#39;400&#39;;&#xA;tradingview_embed_options.chart = &#39;d3HaLDmE&#39;;&#xA;new TradingView.chart(tradingview_embed_options);&#xA;&lt;/script&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.tradingview.com/script/d3HaLDmE-Trendlines-With-Breaks-Bhaskarvilles/&#34;&gt;Trendlines With Breaks [Bhaskarvilles]&lt;/a&gt; by &lt;a href=&#34;https://www.tradingview.com/u/bhaskarvilles/&#34;&gt;bhaskarvilles&lt;/a&gt; on &lt;a href=&#34;https://www.tradingview.com/&#34;&gt;TradingView.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- TradingView Chart END --&gt;&#xA;&lt;h2 id=&#34;chart-as-image&#34;&gt;Chart As Image&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.tradingview.com/i/d3HaLDmE/&#34;&gt;https://www.tradingview.com/i/d3HaLDmE/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;link-to-the-chart&#34;&gt;Link to the Chart&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.tradingview.com/script/d3HaLDmE-Trendlines-With-Breaks-Bhaskarvilles/&#34;&gt;https://www.tradingview.com/script/d3HaLDmE-Trendlines-With-Breaks-Bhaskarvilles/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

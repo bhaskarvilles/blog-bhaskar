@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artificial-Intelligence on Ram&#39;s Website</title>
-    <link>http://localhost:1313/tags/artificial-intelligence/</link>
+    <link>https://secretcoder.org/tags/artificial-intelligence/</link>
     <description>Recent content in Artificial-Intelligence on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Dark Side of AI: Navigating Ethical Challenges in Artificial Intelligence</title>
-      <link>http://localhost:1313/2024/12/the-dark-side-of-ai-navigating-ethical-challenges-in-artificial-intelligence/</link>
+      <link>https://secretcoder.org/2024/12/the-dark-side-of-ai-navigating-ethical-challenges-in-artificial-intelligence/</link>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/12/the-dark-side-of-ai-navigating-ethical-challenges-in-artificial-intelligence/</guid>
+      <guid>https://secretcoder.org/2024/12/the-dark-side-of-ai-navigating-ethical-challenges-in-artificial-intelligence/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As artificial intelligence continues to reshape our world at an unprecedented pace, we find ourselves at a critical juncture. While AI promises revolutionary advances in healthcare, science, and daily life, it also presents serious challenges that demand our immediate attention. This post examines the darker aspects of AI technology, exploring its potential risks and ethical implications that often remain understated in mainstream discussions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;privacy-concerns-in-ai&#34;&gt;Privacy Concerns in AI&lt;/h2&gt;&#xA;&lt;h3 id=&#34;data-collection-and-surveillance&#34;&gt;Data Collection and Surveillance&lt;/h3&gt;&#xA;&lt;p&gt;The scale of data collection in modern AI systems is staggering and often concerning:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Core of OpenAI o1</title>
-      <link>http://localhost:1313/2024/09/the-core-of-openai-o1/</link>
+      <link>https://secretcoder.org/2024/09/the-core-of-openai-o1/</link>
       <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/09/the-core-of-openai-o1/</guid>
+      <guid>https://secretcoder.org/2024/09/the-core-of-openai-o1/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Introducing OpenAI o1: A New Frontier in AI Reasoning&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the rapidly evolving world of artificial intelligence, OpenAI has taken yet another bold step forward with the introduction of its latest series: &lt;strong&gt;OpenAI o1&lt;/strong&gt;. Released on September 12, 2024, this new model series is designed to handle complex reasoning tasks with a level of precision and depth previously unseen. With its enhanced capabilities in solving hard problems in science, coding, and math, OpenAI o1 represents a major advancement in the way AI tackles real-world challenges.&lt;/p&gt;</description>
     </item>
   </channel>

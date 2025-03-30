@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning on Ram&#39;s Website</title>
-    <link>http://localhost:1313/categories/deep-learning/</link>
+    <link>https://secretcoder.org/categories/deep-learning/</link>
     <description>Recent content in Deep Learning on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 29 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding Artificial Neural Networks (ANNs) and Convolutional Neural Networks (CNNs)</title>
-      <link>http://localhost:1313/2024/07/understanding-artificial-neural-networks-anns-and-convolutional-neural-networks-cnns/</link>
+      <link>https://secretcoder.org/2024/07/understanding-artificial-neural-networks-anns-and-convolutional-neural-networks-cnns/</link>
       <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/07/understanding-artificial-neural-networks-anns-and-convolutional-neural-networks-cnns/</guid>
+      <guid>https://secretcoder.org/2024/07/understanding-artificial-neural-networks-anns-and-convolutional-neural-networks-cnns/</guid>
       <description>&lt;h1 id=&#34;understanding-artificial-neural-networks-anns-and-convolutional-neural-networks-cnns&#34;&gt;Understanding Artificial Neural Networks (ANNs) and Convolutional Neural Networks (CNNs)&lt;/h1&gt;&#xA;&lt;p&gt;Neural networks have revolutionized the field of artificial intelligence and machine learning. Their ability to model complex patterns and relationships has led to significant advancements in various domains, from computer vision to natural language processing. Among the myriad types of neural networks, Artificial Neural Networks (ANNs) and Convolutional Neural Networks (CNNs) are two of the most prominent and widely used architectures.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Custom Models on Ram&#39;s Website</title>
-    <link>http://localhost:1313/tags/custom-models/</link>
+    <link>https://secretcoder.org/tags/custom-models/</link>
     <description>Recent content in Custom Models on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/custom-models/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/tags/custom-models/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Running Local Large Language Models (LLMs) for Image Generation</title>
-      <link>http://localhost:1313/2025/02/running-local-large-language-models-llms-for-image-generation/</link>
+      <link>https://secretcoder.org/2025/02/running-local-large-language-models-llms-for-image-generation/</link>
       <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2025/02/running-local-large-language-models-llms-for-image-generation/</guid>
+      <guid>https://secretcoder.org/2025/02/running-local-large-language-models-llms-for-image-generation/</guid>
       <description>&lt;h1 id=&#34;running-local-large-language-models-llms-for-image-generation-a-comprehensive-guide&#34;&gt;Running Local Large Language Models (LLMs) for Image Generation: A Comprehensive Guide&lt;/h1&gt;&#xA;&lt;p&gt;In recent years, large language models (LLMs) have made significant strides in various applications, including text generation, translation, and even image creation. With the advent of tools like DALL-E, Stable Diffusion, and others, generating high-quality images from textual descriptions has become more accessible than ever. However, many users are now looking to run these models locally for reasons such as privacy concerns, faster processing times, and avoiding reliance on cloud services.&lt;/p&gt;</description>
     </item>
   </channel>

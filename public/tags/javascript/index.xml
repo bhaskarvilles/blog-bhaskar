@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript on Ram&#39;s Website</title>
-    <link>http://localhost:1313/tags/javascript/</link>
+    <link>https://secretcoder.org/tags/javascript/</link>
     <description>Recent content in JavaScript on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 31 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Discovering JavaScript Files with JSFinder</title>
-      <link>http://localhost:1313/2024/08/discovering-javascript-files-with-jsfinder/</link>
+      <link>https://secretcoder.org/2024/08/discovering-javascript-files-with-jsfinder/</link>
       <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/08/discovering-javascript-files-with-jsfinder/</guid>
+      <guid>https://secretcoder.org/2024/08/discovering-javascript-files-with-jsfinder/</guid>
       <description>&lt;h1 id=&#34;discovering-javascript-files-with-jsfinder&#34;&gt;Discovering JavaScript Files with JSFinder&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;h3 id=&#34;the-need-for-javascript-discovery&#34;&gt;The Need for JavaScript Discovery&lt;/h3&gt;&#xA;&lt;p&gt;JavaScript is the backbone of modern web applications, driving dynamic behavior, interactivity, and user engagement. However, the same flexibility that makes JavaScript powerful also makes it a prime target for security vulnerabilities, such as cross-site scripting (XSS), data leakage, and unauthorized access. Identifying and analyzing JavaScript files across various subdomains is crucial for security researchers and developers aiming to secure their applications. Manual inspection of each subdomain is time-consuming and prone to errors, which is where automation tools like JSFinder come into play.&lt;/p&gt;</description>
     </item>
   </channel>

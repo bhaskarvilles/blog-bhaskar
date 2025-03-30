@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Entrepreneurship on Ram&#39;s Website</title>
-    <link>http://localhost:1313/categories/entrepreneurship/</link>
+    <link>https://secretcoder.org/categories/entrepreneurship/</link>
     <description>Recent content in Entrepreneurship on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/categories/entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BHASKAR: Transforming India&#39;s Startup Ecosystem</title>
-      <link>http://localhost:1313/2024/10/bhaskar-transforming-indias-startup-ecosystem/</link>
+      <link>https://secretcoder.org/2024/10/bhaskar-transforming-indias-startup-ecosystem/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/10/bhaskar-transforming-indias-startup-ecosystem/</guid>
+      <guid>https://secretcoder.org/2024/10/bhaskar-transforming-indias-startup-ecosystem/</guid>
       <description>&lt;h2 id=&#34;a-new-era-of-innovation-for-indias-startup-community&#34;&gt;A New Era of Innovation for India&amp;rsquo;s Startup Community&lt;/h2&gt;&#xA;&lt;p&gt;In the rapidly evolving landscape of Indian entrepreneurship, a groundbreaking platform has emerged to revolutionize the way startups operate, collaborate, and grow. The Bharat Startup Knowledge Access Registry, affectionately known as &lt;strong&gt;BHASKAR&lt;/strong&gt;, is set to redefine India&amp;rsquo;s startup ecosystem. This innovative digital platform brings together entrepreneurs, investors, mentors, policymakers, and other key players in a unified space, fostering unprecedented levels of collaboration and knowledge sharing.&lt;/p&gt;</description>
     </item>
   </channel>

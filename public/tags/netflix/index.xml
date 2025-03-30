@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Netflix on Ram&#39;s Website</title>
-    <link>http://localhost:1313/tags/netflix/</link>
+    <link>https://secretcoder.org/tags/netflix/</link>
     <description>Recent content in Netflix on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/netflix/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/tags/netflix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Power of Event-Driven Architecture (EDA): How Netflix and Uber Handle Billions of Events Daily</title>
-      <link>http://localhost:1313/2024/09/the-power-of-event-driven-architecture-eda-how-netflix-and-uber-handle-billions-of-events-daily/</link>
+      <link>https://secretcoder.org/2024/09/the-power-of-event-driven-architecture-eda-how-netflix-and-uber-handle-billions-of-events-daily/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/09/the-power-of-event-driven-architecture-eda-how-netflix-and-uber-handle-billions-of-events-daily/</guid>
+      <guid>https://secretcoder.org/2024/09/the-power-of-event-driven-architecture-eda-how-netflix-and-uber-handle-billions-of-events-daily/</guid>
       <description>&lt;h3 id=&#34;the-rise-of-event-driven-architecture-eda-in-modern-software-design&#34;&gt;&lt;strong&gt;The Rise of Event-Driven Architecture (EDA) in Modern Software Design&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;In today&amp;rsquo;s rapidly evolving digital landscape, the &lt;strong&gt;Event-Driven Architecture (EDA) pattern&lt;/strong&gt; has emerged as a cornerstone in modern software design, especially with the rise of &lt;strong&gt;microservices&lt;/strong&gt;, &lt;strong&gt;big data&lt;/strong&gt;, and &lt;strong&gt;real-time processing&lt;/strong&gt;. Companies need scalable and flexible ways to handle interactions between different components, and EDA offers a robust solution. In this post, we’ll break down the EDA pattern, explore why it’s gaining popularity, and examine how leading companies like &lt;strong&gt;Netflix&lt;/strong&gt; and &lt;strong&gt;Uber&lt;/strong&gt; leverage this architecture to handle billions of events daily.&lt;/p&gt;</description>
     </item>
   </channel>

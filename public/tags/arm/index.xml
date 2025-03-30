@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ARM on Ram&#39;s Website</title>
-    <link>http://localhost:1313/tags/arm/</link>
+    <link>https://secretcoder.org/tags/arm/</link>
     <description>Recent content in ARM on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/arm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/tags/arm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advanced RISC Machines</title>
-      <link>http://localhost:1313/2024/08/advanced-risc-machines/</link>
+      <link>https://secretcoder.org/2024/08/advanced-risc-machines/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/08/advanced-risc-machines/</guid>
+      <guid>https://secretcoder.org/2024/08/advanced-risc-machines/</guid>
       <description>&lt;h3 id=&#34;arm-based-processors&#34;&gt;ARM-Based Processors&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;ARM (Advanced RISC Machines)&lt;/strong&gt; architecture refers to a family of reduced instruction set computing (RISC) architectures for processors, renowned for their power efficiency. ARM processors are distinct from traditional x86 processors (from companies like Intel and AMD) due to their focus on lower power consumption, making them especially suitable for mobile devices, embedded systems, and increasingly, high-performance computing.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;a href=&#34;https://media.geeksforgeeks.org/wp-content/uploads/20200711133437/Screenshot37.png&#34; data-dimbox data-dimbox-caption=&#34;ARM Architecture&#34;&gt;&#xA;    &lt;img src=&#34;https://media.geeksforgeeks.org/wp-content/uploads/20200711133437/Screenshot37.png&#34; alt=&#34;ARM Architecture&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-features-of-arm-based-processors&#34;&gt;Key Features of ARM-Based Processors:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Power Efficiency&lt;/strong&gt;: ARM&amp;rsquo;s RISC architecture simplifies instructions and requires fewer transistors compared to x86 designs. This results in lower power consumption and less heat, critical for battery-powered devices.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: ARM processors are designed to scale across different uses, from tiny microcontrollers to powerful server CPUs. Companies can customize ARM architectures to suit their specific products.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customizability&lt;/strong&gt;: Original Equipment Manufacturers (OEMs) can license ARM architecture and create custom chips tailored for specific applications. Companies such as Qualcomm, Apple, and Samsung develop their system-on-chips (SoCs) based on ARM designs.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Growing Ecosystem&lt;/strong&gt;: ARM processors have an ever-expanding ecosystem, supporting various applications from smartphone computing to data center operations.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;High Performance Per Watt&lt;/strong&gt;: The ARM architecture has evolved significantly, offering excellent performance for every watt of power consumed.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&#xA;&lt;a href=&#34;https://static1.xdaimages.com/wordpress/wp-content/uploads/wm/2023/10/snapdragon-x-elite-6.jpg&#34; data-dimbox data-dimbox-caption=&#34;snapdragon X Elite ARM based x64 processor hands-on&#34;&gt;&#xA;    &lt;img src=&#34;https://static1.xdaimages.com/wordpress/wp-content/uploads/wm/2023/10/snapdragon-x-elite-6.jpg&#34; alt=&#34;snapdragon X Elite ARM based x64 processor hands-on&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>

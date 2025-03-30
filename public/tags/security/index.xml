@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Ram&#39;s Website</title>
-    <link>http://localhost:1313/tags/security/</link>
+    <link>https://secretcoder.org/tags/security/</link>
     <description>Recent content in Security on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Internet Archive hacked, data breach impacts 31 million users</title>
-      <link>http://localhost:1313/2025/02/internet-archive-hacked-data-breach-impacts-31-million-users/</link>
+      <link>https://secretcoder.org/2025/02/internet-archive-hacked-data-breach-impacts-31-million-users/</link>
       <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2025/02/internet-archive-hacked-data-breach-impacts-31-million-users/</guid>
+      <guid>https://secretcoder.org/2025/02/internet-archive-hacked-data-breach-impacts-31-million-users/</guid>
       <description>&lt;h1 id=&#34;internet-archive-hacked-data-breach-impacts-31-million-users&#34;&gt;Internet Archive hacked, data breach impacts 31 million users&lt;/h1&gt;&#xA;&lt;p&gt;The Internet Archive, a non-profit digital library, has suffered a data breach affecting 31 million users. The breach involved the theft of user authentication data, including email addresses, screen names, password change timestamps, and Bcrypt-hashed passwords.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;a href=&#34;https://help.archive.org/files/2022/09/ia-logo-2line-150w.svg&#34; data-dimbox data-dimbox-caption=&#34;Image&#34;&gt;&#xA;    &lt;img src=&#34;https://help.archive.org/files/2022/09/ia-logo-2line-150w.svg&#34; alt=&#34;Image&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-happened&#34;&gt;What happened?&lt;/h2&gt;&#xA;&lt;p&gt;The Internet Archive, a non-profit digital library, has suffered a data breach affecting 31 million users. The breach involved the theft of user authentication data, including email addresses, screen names, password change timestamps, and Bcrypt-hashed passwords.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Announcing My Candidacy for the OWASP Global Board of Directors 2024</title>
-      <link>http://localhost:1313/2024/09/announcing-my-candidacy-for-the-owasp-global-board-of-directors-2024/</link>
+      <link>https://secretcoder.org/2024/09/announcing-my-candidacy-for-the-owasp-global-board-of-directors-2024/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/09/announcing-my-candidacy-for-the-owasp-global-board-of-directors-2024/</guid>
+      <guid>https://secretcoder.org/2024/09/announcing-my-candidacy-for-the-owasp-global-board-of-directors-2024/</guid>
       <description>&lt;h2 id=&#34;announcing-my-candidacy-for-the-owasp-global-board-of-directors&#34;&gt;&lt;strong&gt;Announcing My Candidacy for the OWASP Global Board of Directors&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://owasp.org/www-board-candidates/2024/bhaskar_ram_allam&#34;&gt;OWASP GLOBAL BOARD OF DIRECTORS 2024 ELECTIONS&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am excited to officially announce my candidacy for the OWASP Global Board of Directors! With over a decade of experience in artificial intelligence, blockchain, and full-stack web development, I am passionate about advancing software security and expanding OWASP&amp;rsquo;s impact in the ever-evolving landscape of emerging technologies.&lt;/p&gt;&#xA;&lt;h3 id=&#34;my-journey-in-technology-and-security&#34;&gt;&lt;strong&gt;My Journey in Technology and Security&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;As the founder and leader of &lt;strong&gt;Kerdos Infrasoft Pvt Ltd&lt;/strong&gt;, I’ve had the opportunity to focus on innovations in blockchain technology and artificial intelligence, while working closely with some of the leading organizations in tech, such as the &lt;strong&gt;Linux Foundation, Hyperledger, OWASP&lt;/strong&gt;, and &lt;strong&gt;OpenAI&lt;/strong&gt;. Through these collaborations, I’ve developed a deep understanding of the critical importance of security in these technologies.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Discovering JavaScript Files with JSFinder</title>
-      <link>http://localhost:1313/2024/08/discovering-javascript-files-with-jsfinder/</link>
+      <link>https://secretcoder.org/2024/08/discovering-javascript-files-with-jsfinder/</link>
       <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/08/discovering-javascript-files-with-jsfinder/</guid>
+      <guid>https://secretcoder.org/2024/08/discovering-javascript-files-with-jsfinder/</guid>
       <description>&lt;h1 id=&#34;discovering-javascript-files-with-jsfinder&#34;&gt;Discovering JavaScript Files with JSFinder&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;h3 id=&#34;the-need-for-javascript-discovery&#34;&gt;The Need for JavaScript Discovery&lt;/h3&gt;&#xA;&lt;p&gt;JavaScript is the backbone of modern web applications, driving dynamic behavior, interactivity, and user engagement. However, the same flexibility that makes JavaScript powerful also makes it a prime target for security vulnerabilities, such as cross-site scripting (XSS), data leakage, and unauthorized access. Identifying and analyzing JavaScript files across various subdomains is crucial for security researchers and developers aiming to secure their applications. Manual inspection of each subdomain is time-consuming and prone to errors, which is where automation tools like JSFinder come into play.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contributions to Open Source Projects</title>
-      <link>http://localhost:1313/2024/07/contributions-to-open-source-projects/</link>
+      <link>https://secretcoder.org/2024/07/contributions-to-open-source-projects/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/07/contributions-to-open-source-projects/</guid>
+      <guid>https://secretcoder.org/2024/07/contributions-to-open-source-projects/</guid>
       <description>&lt;h1 id=&#34;contributions-overview&#34;&gt;Contributions Overview&lt;/h1&gt;&#xA;&lt;h2 id=&#34;nationalsecurityagencyghidra-3802&#34;&gt;&lt;a href=&#34;https://github.com/NationalSecurityAgency/ghidra/pull/3802&#34;&gt;NationalSecurityAgency/ghidra #3802&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Title:&lt;/strong&gt; Update run configurations and documentation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Summary:&lt;/strong&gt; This pull request updates the run configurations and documentation for Ghidra. It includes changes to enhance usability and address issues with existing configurations. The update aims to streamline the setup process for developers working with Ghidra.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;details&#34;&gt;Details:&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This PR includes updates to the run configurations for Ghidra, addressing issues with existing setups and enhancing usability for developers.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;filecoin-projectlotus-8204&#34;&gt;&lt;a href=&#34;https://github.com/filecoin-project/lotus/pull/8204&#34;&gt;filecoin-project/lotus #8204&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Title:&lt;/strong&gt; feat: add snapshot creation to lotus-miner&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Summary:&lt;/strong&gt; This pull request adds a new feature to the Lotus miner, enabling snapshot creation. This feature allows for capturing the state of the miner at a specific point in time, which can be useful for backups, state inspection, and recovery purposes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;details-1&#34;&gt;Details:&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Adds functionality for creating snapshots of the miner&amp;rsquo;s state, facilitating easier backups and state inspections.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud Computing on Ram&#39;s Website</title>
-    <link>http://localhost:1313/tags/cloud-computing/</link>
+    <link>https://secretcoder.org/tags/cloud-computing/</link>
     <description>Recent content in Cloud Computing on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Dark Side of AI in Call Summarization: Privacy, Personalization</title>
-      <link>http://localhost:1313/2024/08/the-dark-side-of-ai-in-call-summarization-privacy-personalization/</link>
+      <link>https://secretcoder.org/2024/08/the-dark-side-of-ai-in-call-summarization-privacy-personalization/</link>
       <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/08/the-dark-side-of-ai-in-call-summarization-privacy-personalization/</guid>
+      <guid>https://secretcoder.org/2024/08/the-dark-side-of-ai-in-call-summarization-privacy-personalization/</guid>
       <description>&lt;h2 id=&#34;the-dark-side-of-call-summarizing-ais-in-mobiles&#34;&gt;The Dark Side of Call Summarizing AIs in Mobiles&lt;/h2&gt;&#xA;&lt;p&gt;In today’s digital age, artificial intelligence (AI) is becoming increasingly pervasive, seamlessly integrating into various aspects of our lives. One such integration is the use of AI in mobile devices to summarize calls, a feature that promises convenience but comes with significant privacy and ethical concerns. Companies like Samsung (with Bixby), Apple (with Intelligence), and Jio (with Phonecall AI) have introduced this technology, touting it as a way to enhance user experience. However, the implications of these advancements go far beyond mere convenience. In this post, we will explore the dark side of call summarizing AIs, focusing on how they process data in the cloud, store it, and use it for personalization, targeted ads, and training large language models (LLMs).&lt;/p&gt;</description>
     </item>
   </channel>

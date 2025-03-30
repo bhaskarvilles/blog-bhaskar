@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contributions on Ram&#39;s Website</title>
-    <link>http://localhost:1313/categories/contributions/</link>
+    <link>https://secretcoder.org/categories/contributions/</link>
     <description>Recent content in Contributions on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/contributions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/categories/contributions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contributions to Open Source Projects</title>
-      <link>http://localhost:1313/2024/07/contributions-to-open-source-projects/</link>
+      <link>https://secretcoder.org/2024/07/contributions-to-open-source-projects/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/07/contributions-to-open-source-projects/</guid>
+      <guid>https://secretcoder.org/2024/07/contributions-to-open-source-projects/</guid>
       <description>&lt;h1 id=&#34;contributions-overview&#34;&gt;Contributions Overview&lt;/h1&gt;&#xA;&lt;h2 id=&#34;nationalsecurityagencyghidra-3802&#34;&gt;&lt;a href=&#34;https://github.com/NationalSecurityAgency/ghidra/pull/3802&#34;&gt;NationalSecurityAgency/ghidra #3802&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Title:&lt;/strong&gt; Update run configurations and documentation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Summary:&lt;/strong&gt; This pull request updates the run configurations and documentation for Ghidra. It includes changes to enhance usability and address issues with existing configurations. The update aims to streamline the setup process for developers working with Ghidra.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;details&#34;&gt;Details:&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This PR includes updates to the run configurations for Ghidra, addressing issues with existing setups and enhancing usability for developers.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;filecoin-projectlotus-8204&#34;&gt;&lt;a href=&#34;https://github.com/filecoin-project/lotus/pull/8204&#34;&gt;filecoin-project/lotus #8204&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Title:&lt;/strong&gt; feat: add snapshot creation to lotus-miner&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Summary:&lt;/strong&gt; This pull request adds a new feature to the Lotus miner, enabling snapshot creation. This feature allows for capturing the state of the miner at a specific point in time, which can be useful for backups, state inspection, and recovery purposes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;details-1&#34;&gt;Details:&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Adds functionality for creating snapshots of the miner&amp;rsquo;s state, facilitating easier backups and state inspections.&lt;/p&gt;</description>
     </item>
   </channel>

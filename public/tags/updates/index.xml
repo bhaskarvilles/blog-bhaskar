@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates on Ram&#39;s Website</title>
-    <link>http://localhost:1313/tags/updates/</link>
+    <link>https://secretcoder.org/tags/updates/</link>
     <description>Recent content in Updates on Ram&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://secretcoder.org/tags/updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iOS and iPadOS 18.4: A Comprehensive Overview of the Latest Updates</title>
-      <link>http://localhost:1313/2024/03/ios-and-ipados-18.4-a-comprehensive-overview-of-the-latest-updates/</link>
+      <link>https://secretcoder.org/2024/03/ios-and-ipados-18.4-a-comprehensive-overview-of-the-latest-updates/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/03/ios-and-ipados-18.4-a-comprehensive-overview-of-the-latest-updates/</guid>
+      <guid>https://secretcoder.org/2024/03/ios-and-ipados-18.4-a-comprehensive-overview-of-the-latest-updates/</guid>
       <description>&lt;p&gt;// &amp;hellip; existing code &amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>iOS and iPadOS 18.4: A Comprehensive Overview of the Latest Updates</title>
-      <link>http://localhost:1313/2024/03/ios-and-ipados-18.4-a-comprehensive-overview-of-the-latest-updates/</link>
+      <link>https://secretcoder.org/2024/03/ios-and-ipados-18.4-a-comprehensive-overview-of-the-latest-updates/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/03/ios-and-ipados-18.4-a-comprehensive-overview-of-the-latest-updates/</guid>
+      <guid>https://secretcoder.org/2024/03/ios-and-ipados-18.4-a-comprehensive-overview-of-the-latest-updates/</guid>
       <description>&lt;h1 id=&#34;ios-and-ipados-184-unveiling-the-latest-apple-updates&#34;&gt;iOS and iPadOS 18.4: Unveiling the Latest Apple Updates&lt;/h1&gt;&#xA;&lt;p&gt;Apple has released iOS and iPadOS 18.4, bringing a host of new features, security improvements, and performance optimizations to its mobile ecosystem. This update represents Apple&amp;rsquo;s commitment to enhancing user experience while maintaining the highest standards of security and privacy.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features-and-improvements&#34;&gt;Key Features and Improvements&lt;/h2&gt;&#xA;&lt;h3 id=&#34;enhanced-privacy-and-security&#34;&gt;Enhanced Privacy and Security&lt;/h3&gt;&#xA;&lt;p&gt;The latest update introduces several privacy-focused enhancements:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improved private data redaction in system logs&lt;/li&gt;&#xA;&lt;li&gt;Enhanced sandbox restrictions for better app isolation&lt;/li&gt;&#xA;&lt;li&gt;Strengthened memory handling and input validation&lt;/li&gt;&#xA;&lt;li&gt;Advanced protection against malicious image processing&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;system-optimizations&#34;&gt;System Optimizations&lt;/h3&gt;&#xA;&lt;p&gt;iOS and iPadOS 18.4 bring various system-level improvements:&lt;/p&gt;</description>
     </item>
   </channel>
