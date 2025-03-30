@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OWASP on Ram&#39;s Website</title>
+    <link>http://localhost:1313/tags/owasp/</link>
+    <description>Recent content in OWASP on Ram&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/owasp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing My Candidacy for the OWASP Global Board of Directors 2024</title>
+      <link>http://localhost:1313/2024/09/announcing-my-candidacy-for-the-owasp-global-board-of-directors-2024/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/09/announcing-my-candidacy-for-the-owasp-global-board-of-directors-2024/</guid>
+      <description>&lt;h2 id=&#34;announcing-my-candidacy-for-the-owasp-global-board-of-directors&#34;&gt;&lt;strong&gt;Announcing My Candidacy for the OWASP Global Board of Directors&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://owasp.org/www-board-candidates/2024/bhaskar_ram_allam&#34;&gt;OWASP GLOBAL BOARD OF DIRECTORS 2024 ELECTIONS&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am excited to officially announce my candidacy for the OWASP Global Board of Directors! With over a decade of experience in artificial intelligence, blockchain, and full-stack web development, I am passionate about advancing software security and expanding OWASP&amp;rsquo;s impact in the ever-evolving landscape of emerging technologies.&lt;/p&gt;&#xA;&lt;h3 id=&#34;my-journey-in-technology-and-security&#34;&gt;&lt;strong&gt;My Journey in Technology and Security&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;As the founder and leader of &lt;strong&gt;Kerdos Infrasoft Pvt Ltd&lt;/strong&gt;, I’ve had the opportunity to focus on innovations in blockchain technology and artificial intelligence, while working closely with some of the leading organizations in tech, such as the &lt;strong&gt;Linux Foundation, Hyperledger, OWASP&lt;/strong&gt;, and &lt;strong&gt;OpenAI&lt;/strong&gt;. Through these collaborations, I’ve developed a deep understanding of the critical importance of security in these technologies.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

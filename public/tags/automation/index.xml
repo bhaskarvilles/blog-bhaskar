@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on Ram&#39;s Website</title>
+    <link>http://localhost:1313/tags/automation/</link>
+    <description>Recent content in Automation on Ram&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Deep Dive: How Claude AI Can Control Computers</title>
+      <link>http://localhost:1313/2024/10/technical-deep-dive-how-claude-ai-can-control-computers/</link>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/10/technical-deep-dive-how-claude-ai-can-control-computers/</guid>
+      <description>&lt;h1 id=&#34;technical-deep-dive-how-claude-ai-can-control-computers&#34;&gt;Technical Deep Dive: How Claude AI Can Control Computers&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Claude and other advanced AI models can interact with computer systems through carefully designed interfaces and APIs. This article explores the technical architecture and implementation details that make this possible, focusing on the security implications and practical considerations of allowing AI systems to control computers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;architecture-overview&#34;&gt;Architecture Overview&lt;/h2&gt;&#xA;&lt;h3 id=&#34;core-components&#34;&gt;Core Components&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1-language-model-interface&#34;&gt;1. Language Model Interface&lt;/h4&gt;&#xA;&lt;p&gt;The foundation of Claude&amp;rsquo;s computer control capabilities starts with its language model interface. This component:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JSMON: Revolutionizing JavaScript Security Monitoring</title>
+      <link>http://localhost:1313/2024/09/jsmon-revolutionizing-javascript-security-monitoring/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/09/jsmon-revolutionizing-javascript-security-monitoring/</guid>
+      <description>&lt;h3 id=&#34;jsmon-revolutionizing-javascript-security-monitoring&#34;&gt;JSMON: Revolutionizing JavaScript Security Monitoring&lt;/h3&gt;&#xA;&lt;p&gt;In today’s digital landscape, ensuring the security of JavaScript code across applications has become more important than ever. With increasing complexity in front-end development and APIs, JavaScript files often serve as a vector for attacks, exposing sensitive data and security flaws. &lt;strong&gt;JSMON&lt;/strong&gt; (jsmon.sh) has emerged as a leading security monitoring platform that addresses these challenges by providing a robust toolkit for analyzing JavaScript files. Whether you&amp;rsquo;re a bug bounty hunter, penetration tester, or part of a security-focused enterprise, JSMON offers a comprehensive solution to track and manage JS vulnerabilities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Discovering JavaScript Files with JSFinder</title>
+      <link>http://localhost:1313/2024/08/discovering-javascript-files-with-jsfinder/</link>
+      <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/08/discovering-javascript-files-with-jsfinder/</guid>
+      <description>&lt;h1 id=&#34;discovering-javascript-files-with-jsfinder&#34;&gt;Discovering JavaScript Files with JSFinder&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;h3 id=&#34;the-need-for-javascript-discovery&#34;&gt;The Need for JavaScript Discovery&lt;/h3&gt;&#xA;&lt;p&gt;JavaScript is the backbone of modern web applications, driving dynamic behavior, interactivity, and user engagement. However, the same flexibility that makes JavaScript powerful also makes it a prime target for security vulnerabilities, such as cross-site scripting (XSS), data leakage, and unauthorized access. Identifying and analyzing JavaScript files across various subdomains is crucial for security researchers and developers aiming to secure their applications. Manual inspection of each subdomain is time-consuming and prone to errors, which is where automation tools like JSFinder come into play.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

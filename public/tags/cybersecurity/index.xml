@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybersecurity on Ram&#39;s Website</title>
+    <link>http://localhost:1313/tags/cybersecurity/</link>
+    <description>Recent content in Cybersecurity on Ram&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Python Keylogger: A Security Researcher’s development to Understanding Keystroke Logging</title>
+      <link>http://localhost:1313/2024/09/building-a-python-keylogger-a-security-researchers-development-to-understanding-keystroke-logging/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/09/building-a-python-keylogger-a-security-researchers-development-to-understanding-keystroke-logging/</guid>
+      <description>&lt;h3 id=&#34;setting-up-usb-autorun-for-testing&#34;&gt;Setting up USB Autorun (for testing):&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;: You would need an &lt;code&gt;autorun.inf&lt;/code&gt; file on the USB, but keep in mind this is typically disabled by default for security.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux/macOS&lt;/strong&gt;: You can set up a udev rule on Linux that triggers a script when a USB drive is inserted.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Here’s an example of how you might trigger your Python script on Linux when a USB drive is inserted using &lt;strong&gt;udev rules&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JSMON: Revolutionizing JavaScript Security Monitoring</title>
+      <link>http://localhost:1313/2024/09/jsmon-revolutionizing-javascript-security-monitoring/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/09/jsmon-revolutionizing-javascript-security-monitoring/</guid>
+      <description>&lt;h3 id=&#34;jsmon-revolutionizing-javascript-security-monitoring&#34;&gt;JSMON: Revolutionizing JavaScript Security Monitoring&lt;/h3&gt;&#xA;&lt;p&gt;In today’s digital landscape, ensuring the security of JavaScript code across applications has become more important than ever. With increasing complexity in front-end development and APIs, JavaScript files often serve as a vector for attacks, exposing sensitive data and security flaws. &lt;strong&gt;JSMON&lt;/strong&gt; (jsmon.sh) has emerged as a leading security monitoring platform that addresses these challenges by providing a robust toolkit for analyzing JavaScript files. Whether you&amp;rsquo;re a bug bounty hunter, penetration tester, or part of a security-focused enterprise, JSMON offers a comprehensive solution to track and manage JS vulnerabilities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Intercepting Mobile Calls: A Deep Dive into Threats to National Security</title>
+      <link>http://localhost:1313/2024/08/intercepting-mobile-calls-a-deep-dive-into-threats-to-national-security/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/08/intercepting-mobile-calls-a-deep-dive-into-threats-to-national-security/</guid>
+      <description>&lt;h2 id=&#34;intercepting-mobile-calls-a-deep-dive-into-threats-to-national-security&#34;&gt;&lt;strong&gt;Intercepting Mobile Calls: A Deep Dive into Threats to National Security&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;In today’s interconnected world, mobile communication has become the backbone of personal and professional interactions. As mobile networks evolve from 2G to 5G, the need for secure communication channels has never been more critical. However, with advancements in technology, the risk of mobile call interception has also increased, posing significant threats to national security. This blog post explores the technical aspects of mobile call interception, the methods used by malicious actors, and the profound implications these have on national security.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ethics on Ram&#39;s Website</title>
+    <link>http://localhost:1313/tags/ethics/</link>
+    <description>Recent content in Ethics on Ram&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ethics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Dark Side of AI: Navigating Ethical Challenges in Artificial Intelligence</title>
+      <link>http://localhost:1313/2024/12/the-dark-side-of-ai-navigating-ethical-challenges-in-artificial-intelligence/</link>
+      <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/12/the-dark-side-of-ai-navigating-ethical-challenges-in-artificial-intelligence/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As artificial intelligence continues to reshape our world at an unprecedented pace, we find ourselves at a critical juncture. While AI promises revolutionary advances in healthcare, science, and daily life, it also presents serious challenges that demand our immediate attention. This post examines the darker aspects of AI technology, exploring its potential risks and ethical implications that often remain understated in mainstream discussions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;privacy-concerns-in-ai&#34;&gt;Privacy Concerns in AI&lt;/h2&gt;&#xA;&lt;h3 id=&#34;data-collection-and-surveillance&#34;&gt;Data Collection and Surveillance&lt;/h3&gt;&#xA;&lt;p&gt;The scale of data collection in modern AI systems is staggering and often concerning:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Dark Side of AI in Call Summarization: Privacy, Personalization</title>
+      <link>http://localhost:1313/2024/08/the-dark-side-of-ai-in-call-summarization-privacy-personalization/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/08/the-dark-side-of-ai-in-call-summarization-privacy-personalization/</guid>
+      <description>&lt;h2 id=&#34;the-dark-side-of-call-summarizing-ais-in-mobiles&#34;&gt;The Dark Side of Call Summarizing AIs in Mobiles&lt;/h2&gt;&#xA;&lt;p&gt;In today’s digital age, artificial intelligence (AI) is becoming increasingly pervasive, seamlessly integrating into various aspects of our lives. One such integration is the use of AI in mobile devices to summarize calls, a feature that promises convenience but comes with significant privacy and ethical concerns. Companies like Samsung (with Bixby), Apple (with Intelligence), and Jio (with Phonecall AI) have introduced this technology, touting it as a way to enhance user experience. However, the implications of these advancements go far beyond mere convenience. In this post, we will explore the dark side of call summarizing AIs, focusing on how they process data in the cloud, store it, and use it for personalization, targeted ads, and training large language models (LLMs).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

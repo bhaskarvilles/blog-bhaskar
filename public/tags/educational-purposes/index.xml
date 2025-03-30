@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Educational Purposes on Ram&#39;s Website</title>
+    <link>http://localhost:1313/tags/educational-purposes/</link>
+    <description>Recent content in Educational Purposes on Ram&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/educational-purposes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Python Keylogger: A Security Researcher’s development to Understanding Keystroke Logging</title>
+      <link>http://localhost:1313/2024/09/building-a-python-keylogger-a-security-researchers-development-to-understanding-keystroke-logging/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/09/building-a-python-keylogger-a-security-researchers-development-to-understanding-keystroke-logging/</guid>
+      <description>&lt;h3 id=&#34;setting-up-usb-autorun-for-testing&#34;&gt;Setting up USB Autorun (for testing):&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;: You would need an &lt;code&gt;autorun.inf&lt;/code&gt; file on the USB, but keep in mind this is typically disabled by default for security.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux/macOS&lt;/strong&gt;: You can set up a udev rule on Linux that triggers a script when a USB drive is inserted.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Here’s an example of how you might trigger your Python script on Linux when a USB drive is inserted using &lt;strong&gt;udev rules&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

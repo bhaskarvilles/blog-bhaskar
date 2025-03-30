@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+
+  
+<html itemscope itemtype="https://schema.org/WebPage" class="no-js" lang="en">
+
+<head prefix="og: http://ogp.me/ns#"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="http://localhost:1313/">
+    <meta name="author" content="Bhaskar">
+    <meta name="description" content="Explore cutting-edge tech, geopolitics, ethical hacking, activism, and humanity&#39;s future.">
+    <meta name="keywords" content="technology, geopolitics, hacking, activism, future">
+    <meta name="generator" content="Hugo 0.145.0">
+    <title>
+        
+           
+               Creating a Wi-Fi Scanner with Python and Scapy &vert; Ram&#39;s Website
+           
+        
+    </title>
+    <meta itemprop="name" content="Creating a Wi-Fi Scanner with Python and Scapy">
+    <meta itemprop="description" content="Creating a Wi-Fi Scanner with Python and Scapy - Explore cutting-edge tech, geopolitics, ethical hacking, activism, and humanity&#39;s future.">
+
+    <meta property="og:url" content="http://localhost:1313/2022/11/creating-a-wi-fi-scanner-with-python-and-scapy/">
+  <meta property="og:site_name" content="Ram&#39;s Website">
+  <meta property="og:title" content="Creating a Wi-Fi Scanner with Python and Scapy">
+  <meta property="og:description" content="Wi-Fi Hacking: Creating a Wi-Fi Scanner with Python and Scapy Although there are numerous tools to hack Wi-Fi (802.11), to create your own tools you will need to understand the Wi-Fi protocol. In a previous tutorial, I explained the various types of frames in Wi-Fi. Now we will use that information to crate our own Wi-Fi scanner very similar to the aircrack-ng suite’s airmon-ng or Kismet.
+To begin, we will need to understand a bit about scapy. Scapy was written in Python and can forge or decode packets, send them on the wire, capture them, and match requests and replies. It can also handle tasks like scanning, tracerouting, probing, unit tests, attacks, and network discovery. Scapy provides an interface to libpcap, the same library that Wireshark uses for packet capture and visualization. Scapy enables us then to grab packets and analyze for them for particular fields. So, for instance, if we were looking for beacon frames from an AP, we could filter for those with type 0 and subtype 8 This frame includes a variety of information including;">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-11-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-11-09T00:00:00+00:00">
+
+    <meta property="og:site_name" content="Ram&#39;s Website">
+
+    
+
+
+    
+
+    
+    <link rel="canonical" href="http://localhost:1313/2022/11/creating-a-wi-fi-scanner-with-python-and-scapy/">
+    
+
+    
+
+
+
+    <link rel="stylesheet" href="http://localhost:1313/theme.css" media="screen">
+
+
+
+
+
+    
+    
+
+    
+</head>
+
+<body class="mostafa-hugo-theme ">
+    
+
+    <header>
+    <a id="back-to-top-button">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <div class="container">
+        <h1 class="title">
+            <a href="http://localhost:1313/">
+                Ram&#39;s Website
+            </a>
+        </h1>
+
+        <nav>
+            <ul>
+                
+                <li><a href="https://github.com/bhaskarvilles" target="_blank" rel=""><em class="fab fa-github"></em></a></li>
+                
+                <li><a href="https://linkedin.com/in/bhaskarvilles" target="_blank" rel=""><em class="fab fa-linkedin"></em></a></li>
+                
+                <li><a href="https://twitter.com/bhaskarvilles" target="_blank" rel=""><em class="fab fa-twitter"></em></a></li>
+                
+                <li><a href="https://instagram.com/bhaskarvilles" target="_blank" rel=""><em class="fab fa-instagram"></em></a></li>
+                
+                <li><a href="https://facebook.com/bhaskarvilles" target="_blank" rel=""><em class="fab fa-facebook"></em></a></li>
+                
+                <li><a href="https://t.me/bhaskarvilles" target="_blank" rel=""><em class="fab fa-telegram"></em></a></li>
+                
+                <li><a href="https://medium.com/@bhaskarvilles" target="_blank" rel=""><em class="fab fa-medium"></em></a></li>
+                
+                <li><a href="https://gitlab.com/bhaskarvilles" target="_blank" rel=""><em class="fab fa-gitlab"></em></a></li>
+                
+                <li><a href="https://snapchat.com/add/bhaskar.royal" target="_blank" rel=""><em class="fab fa-snapchat"></em></a></li>
+                
+                <li><a href="https://steamcommunity.com/id/bhaskarvilles" target="_blank" rel=""><em class="fab fa-steam"></em></a></li>
+                
+                <li><a href="https://wa.me/919490470485" target="_blank" rel=""><em class="fab fa-whatsapp"></em></a></li>
+                
+                <li><a href="https://bhaskarvilles.wordpress.com" target="_blank" rel=""><em class="fab fa-wordpress"></em></a></li>
+                
+                <li><a href="https://discord.com/users/bhaskarvilles.eth#7016" target="_blank" rel=""><em class="fab fa-discord"></em></a></li>
+                
+                <li><a href="https://app.hackthebox.com/profile/bhaskarvilles" target="_blank" rel=""><em class="fas fa-box"></em></a></li>
+                
+                <li><a href="mailto:bhaskarvilles@duck.com" target="_blank" rel=""><em class="fas fa-envelope"></em></a></li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div class="navigation">
+
+    
+    
+    <div class="pages menu-wrapper">
+        <ul>
+            
+            
+            <li >
+                <a href="/posts/">Posts</a>
+            </li>
+            
+            <li >
+                <a href="/tags/">Tags</a>
+            </li>
+            
+            <li >
+                <a href="/categories/">Categories</a>
+            </li>
+            
+            
+            <li class="active menu-toggle menu-button">
+                <a href="#">Pages</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+
+
+
+    
+    
+
+</div>
+
+
+
+
+    <div class="main container">
+        
+    <div class="article-wrapper u-cf single">
+        
+            
+
+
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="http://localhost:1313/2022/11/creating-a-wi-fi-scanner-with-python-and-scapy/">
+            Creating a Wi-Fi Scanner with Python and Scapy
+        </a>
+    </h1>
+
+   
+
+    
+        
+
+        <h3 id="wi-fi-hacking-creating-a-wi-fi-scanner-with-python-and-scapy">Wi-Fi Hacking: Creating a Wi-Fi Scanner with Python and Scapy</h3>
+<p>Although there are numerous tools to hack Wi-Fi (802.11), to create your own tools you will need to understand the Wi-Fi protocol. In a previous tutorial, I explained the various types of frames in Wi-Fi. Now we will use that information to crate our own Wi-Fi scanner very similar to the aircrack-ng suite&rsquo;s airmon-ng or Kismet.</p>
+<p>
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_7a739a0a2f1d4d2aaadc442e2142fd44-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_7a739a0a2f1d4d2aaadc442e2142fd44-mv2.webp" alt="alt" />
+</a>
+
+</p>
+<p>To begin, we will need to understand a bit about scapy. Scapy was written in Python and can  forge or decode packets, send them on the wire, capture them, and match requests and replies. It can also handle tasks like scanning, tracerouting, probing, unit tests, attacks, and network discovery. Scapy provides an interface to libpcap, the same library that Wireshark uses for packet capture and visualization. Scapy enables us then to grab packets and analyze for them for particular fields. So, for instance, if we were looking for beacon frames from an AP, we could filter for those with type 0 and subtype 8
+This frame includes a variety of information including;</p>
+<ul>
+<li>Channel</li>
+<li>BSSID</li>
+<li>Type of Encryption</li>
+<li>SSID</li>
+</ul>
+<p>If we can grab these frames and parse out this information, we will create a scanner that acts similar to kismet or airodump-ng as seen below.
+
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_713c08d40a31490cbc320ab26281cd88-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_713c08d40a31490cbc320ab26281cd88-mv2.webp" alt="alt" />
+</a>
+
+
+To keep things simple in this first script, we will create a scanner that captures and displays just the channel, BSSID, encryption and SSID.
+Step #1: Select a Text Editor or IDE
+To write your scripts you will need a text editor. Any text editor is fine such as leafpad, vim, gedit, vi, kate, etc. Scripting with an IDE such as PyCharm can be very helpful once you learn to use it.
+In this tutorial, I&rsquo;ll be using Kate which is simple text editor with some IDE capabilities useful for python such as indent checking and color coding syntax. If your system doesn&rsquo;t have it installed, you can get it from the Kali repository by entering;
+Kali &gt; apt install kate
+Step #2: Let&rsquo;s Start Coding
+Let&rsquo;s get started. Start a new project in Kate (or other IDE or text editor). Name the project &ldquo;wifi-scanner.py&rdquo;. If you are unfamiliar with Python check out the following basic tutorials with Python to acquire the necessary background.
+The first thing we need to do with any Python script is to tell the system what interpreter we want to use and then import all the necessary modules. In this case we will need the scapy, sys, signal and os modules. To import scapy, you need to enter;
+from scapy.all import *
+If you haven&rsquo;t installed scapy, you will need to do so. You can enter;
+kali &gt; git clone <a href="https://github.com/secdev/scapy.git">https://github.com/secdev/scapy.git</a>
+kali &gt; cd scapy
+kali &gt; sudo python setup.py install
+
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_94eb2dd28b3340b79503d15527876b8d-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_94eb2dd28b3340b79503d15527876b8d-mv2.webp" alt="alt" />
+</a>
+
+
+Step #3: Create a Function to Terminate the Script at Ctrl+C
+The next step is to create function that will exit the script if the user chooses to terminate it with a Crtl+C and provide the user with an appropriate message.
+
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_a944ce1fb7ff4d369216d3a24b0ea9b0-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_a944ce1fb7ff4d369216d3a24b0ea9b0-mv2.webp" alt="alt" />
+</a>
+
+
+Step #4: Create a Function to Exit
+
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_2ea9bfc8b8a84664ad501479a9417702-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_2ea9bfc8b8a84664ad501479a9417702-mv2.webp" alt="alt" />
+</a>
+
+
+Step #5 Create a Function that reminds the user of the Basic Syntax, if they enter it incorrectly
+The basic syntax for this script is;
+python ./WiFiScanner -i <interface>`
+This function checks the user&rsquo;s syntax and if incorrect, provides a simple message informing the user of the proper syntax.
+
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_cd003868a33f4788b2048bdd30a5102e-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_cd003868a33f4788b2048bdd30a5102e-mv2.webp" alt="alt" />
+</a>
+
+
+Step #6 Create a Function to Sniff packets
+In this function, we will use scapy to sniff the wireless packets.</p>
+<p>
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_8e5d1918d65f4f09aab42df675691d73-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_8e5d1918d65f4f09aab42df675691d73-mv2.webp" alt="alt" />
+</a>
+
+
+Step #7: Check Whether Packets Contain the Beacon Frame
+In the previous step, we started sniffing packets. In this step, we check to see whether the sniffed frames are beacon frames. As we learned in the Anatomy of Wi-Fi, beacon frames are denoted by type = 0 and subtype =8.</p>
+<p>Step #8: Create a Function to Track Discovered SSID&rsquo;s
+Next, we create a function to track the discovered SSID&rsquo;s. In this way, we make certain that we are not duplicating discovered SSID&rsquo;s in our display.
+
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_8940600ee63b41a99b6abce9ad9528ab-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_8940600ee63b41a99b6abce9ad9528ab-mv2.webp" alt="alt" />
+</a>
+
+
+Step #9: Create a Function to place the Wireless Interface in monitor mode
+This next function simply take the wireless interface and places it in monitor mode. In Wi-Fi, monitor mode is similar to promiscuous mode in wired NIC&rsquo;s. This allows the interface to &ldquo;see&rdquo; all the Wi-Fi traffic.
+
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_8e5d1918d65f4f09aab42df675691d73-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_8e5d1918d65f4f09aab42df675691d73-mv2.webp" alt="alt" />
+</a>
+
+
+Step #10: Create a function to Check if User is root
+For scapy requires that the user have root privileges to function properly. Our next function checks to see whether the userid=0 (root). In Linux, the root user us assigned UserID = 0. If not, it displays a message that the user must be root to run this script successfully.
+
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_d33850fe6c83425bbb40d240c0715275-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_d33850fe6c83425bbb40d240c0715275-mv2.webp" alt="alt" />
+</a>
+
+
+Step #11 Main Code Body
+Now we enter the main code body where we will be executing each of the defined functions from above.
+
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_440995ba09ad4e5d80c2127d48190c25-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_440995ba09ad4e5d80c2127d48190c25-mv2.webp" alt="alt" />
+</a>
+
+
+Step #12: Execute the Script
+Make certain to save your script as &ldquo;HackersAriseWiFiScanner&rdquo; and give yourself execute permissions (chmod 755).
+To execute your Wi-Fi scanner, enter;
+kali &gt; python ./WiFiScanner -i wlan0
+
+<a href="https://rashahacks.com/content/images/2022/11/6a4a49_2ebc01ce0fb546c5a3578dc72cbfe4fb-mv2.webp" data-dimbox data-dimbox-caption="alt">
+    <img src="https://rashahacks.com/content/images/2022/11/6a4a49_2ebc01ce0fb546c5a3578dc72cbfe4fb-mv2.webp" alt="alt" />
+</a>
+
+
+As you can see, the script is able to find all the Wi-Fi AP&rsquo;s in range and display key information you will need to hack them!</p>
+<h2 id="summary">Summary</h2>
+<p>This simple script  uses the functionality of scapy to sniff Wi-Fi beacon frames to display all the Wi-Fi AP&rsquo;s in range with their channel, BSSID, type of encryption and SSID. You can now use this information to hack the Wi-Fi AP using one of the methods found here.
+This is a first step toward developing your very own Wi-Fi hacking tool !</p>
+
+    
+
+    
+
+
+    
+
+</div>
+
+    
+<div class="footer no-tags">
+<div class="categories">
+        <i class="fa fa-file-lines "></i>
+        <div class="links">
+            
+                
+                
+                
+                <a href="http://localhost:1313/categories/scappy/">Scappy</a>
+                
+                
+                
+                
+                <a href="http://localhost:1313/categories/python/">Python</a>
+                
+                
+                
+                
+                <a href="http://localhost:1313/categories/rashahacks/">Rashahacks</a>
+                
+                
+            
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="date">
+        
+            <i class="fa fa-calendar-days"></i>
+            
+            <span class="text moment">
+                2022-11-09</span>
+            
+        
+    </div>
+
+
+
+</div>
+
+</article>
+
+        
+    </div>
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="http://localhost:1313/2025/03/unlocking-the-power-of-kerdos-vision-ai-for-image-generation/">Unlocking the Power of Kerdos Vision AI for Image Generation</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2025/03/kerdos-ai-launches-revolutionary-chat-application-with-openai-integration/">Kerdos AI Launches Revolutionary Chat Application with OpenAI Integration</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2025/03/finding-your-inner-drive-a-guide-to-motivation/">Finding Your Inner Drive: A Guide to Motivation</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2025/02/internet-archive-hacked-data-breach-impacts-31-million-users/">Internet Archive hacked, data breach impacts 31 million users</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2025/02/running-local-large-language-models-llms-for-image-generation/">Running Local Large Language Models (LLMs) for Image Generation</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2024/12/the-dark-side-of-ai-navigating-ethical-challenges-in-artificial-intelligence/">The Dark Side of AI: Navigating Ethical Challenges in Artificial Intelligence</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2024/11/building-the-future-of-opensearch-community-driven-innovation/">Building the Future of OpenSearch: Community-Driven Innovation</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            
+            <a href="http://localhost:1313/categories/"><strong>Categories</strong></a>
+            
+
+            <ul>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/ai/">AI (17)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/technology/">Technology (17)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/blockchain/">Blockchain (7)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/artificial-intelligence/">Artificial Intelligence (6)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/machine-learning/">Machine Learning (6)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/openai/">OpenAI (6)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/gaming/">Gaming (5)</a>
+                
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+
+
+
+            
+            <div class="archive">
+                
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="http://localhost:1313/">
+                &copy;
+                
+                2024 - 2025
+                
+                by Ram&#39;s Website
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/mirmousaviii/mostafa-hugo-theme"
+                target="_blank">Powered by Mostafa-Hugo-Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="http://localhost:1313/theme.js"></script>
+
+
+
+
+
+    
+
+    
+</body>
+
+</html>

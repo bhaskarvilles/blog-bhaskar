@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet Archive on Ram&#39;s Website</title>
+    <link>http://localhost:1313/categories/internet-archive/</link>
+    <description>Recent content in Internet Archive on Ram&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/internet-archive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Internet Archive hacked, data breach impacts 31 million users</title>
+      <link>http://localhost:1313/2025/02/internet-archive-hacked-data-breach-impacts-31-million-users/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2025/02/internet-archive-hacked-data-breach-impacts-31-million-users/</guid>
+      <description>&lt;h1 id=&#34;internet-archive-hacked-data-breach-impacts-31-million-users&#34;&gt;Internet Archive hacked, data breach impacts 31 million users&lt;/h1&gt;&#xA;&lt;p&gt;The Internet Archive, a non-profit digital library, has suffered a data breach affecting 31 million users. The breach involved the theft of user authentication data, including email addresses, screen names, password change timestamps, and Bcrypt-hashed passwords.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;a href=&#34;https://help.archive.org/files/2022/09/ia-logo-2line-150w.svg&#34; data-dimbox data-dimbox-caption=&#34;Image&#34;&gt;&#xA;    &lt;img src=&#34;https://help.archive.org/files/2022/09/ia-logo-2line-150w.svg&#34; alt=&#34;Image&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-happened&#34;&gt;What happened?&lt;/h2&gt;&#xA;&lt;p&gt;The Internet Archive, a non-profit digital library, has suffered a data breach affecting 31 million users. The breach involved the theft of user authentication data, including email addresses, screen names, password change timestamps, and Bcrypt-hashed passwords.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

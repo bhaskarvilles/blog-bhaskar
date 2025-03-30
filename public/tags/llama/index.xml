@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLaMA on Ram&#39;s Website</title>
+    <link>http://localhost:1313/tags/llama/</link>
+    <description>Recent content in LLaMA on Ram&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/llama/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running LLaMA 3.1 Locally with Ollama: A Step-by-Step process</title>
+      <link>http://localhost:1313/2024/08/running-llama-3.1-locally-with-ollama-a-step-by-step-process/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/08/running-llama-3.1-locally-with-ollama-a-step-by-step-process/</guid>
+      <description>&lt;h3 id=&#34;running-llama-31-locally-with-ollama-a-step-by-step-process&#34;&gt;Running LLaMA 3.1 Locally with Ollama: A Step-by-Step process&lt;/h3&gt;&#xA;&lt;p&gt;With the rapid advancement in AI and machine learning, large language models (LLMs) have become an integral part of various applications, from chatbots to content generation. Meta’s LLaMA 3.1 (Large Language Model Meta AI) is one of the most powerful models available, and running it locally allows developers and researchers to explore its capabilities without relying on cloud-based services. One of the easiest ways to set up and run LLaMA 3.1 locally is using Ollama, a platform designed to streamline the deployment of LLMs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,153 @@
+baseURL = "https://secretcoder.org"
+languageCode = "en"
+languageName = "English"
+hasCJKLanguage = false
+title = "Ram's Website"
+theme = "mostafa-hugo-theme"
+
+[params.pagination]
+  enable = true
+  size = 12
+
+googleAnalytics = ""
+copyright = "Bhaskar"
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    pre = "🚀"
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = "🌎"
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = "💥"
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+
+[params]
+    author = "Bhaskar"
+    authorBio = "Tech Analyst & Geopolitical Observer"
+    authorAvatar = "img/avatar.png"
+    description = "Explore cutting-edge tech, geopolitics, ethical hacking, activism, and humanity's future."
+    keywords = "technology, geopolitics, hacking, activism, future"
+    subtitle = "Decoding the intersection of technology, geopolitics, and human progress"
+
+    # Social media links
+    socialMediaLinks = [
+        { name = "GitHub", link = "https://github.com/bhaskarvilles", icon = "fab fa-github" },
+        { name = "LinkedIn", link = "https://linkedin.com/in/bhaskarvilles", icon = "fab fa-linkedin" },
+        { name = "Twitter", link = "https://twitter.com/bhaskarvilles", icon = "fab fa-twitter" },
+        { name = "Instagram", link = "https://instagram.com/bhaskarvilles", icon = "fab fa-instagram" },
+        { name = "Facebook", link = "https://facebook.com/bhaskarvilles", icon = "fab fa-facebook" },
+        { name = "Telegram", link = "https://t.me/bhaskarvilles", icon = "fab fa-telegram" },
+        { name = "Medium", link = "https://medium.com/@bhaskarvilles", icon = "fab fa-medium" },
+        { name = "Gitlab", link = "https://gitlab.com/bhaskarvilles", icon = "fab fa-gitlab" },
+        { name = "Snapchat", link = "https://snapchat.com/add/bhaskar.royal", icon = "fab fa-snapchat" },
+        { name = "Steam", link = "https://steamcommunity.com/id/bhaskarvilles", icon = "fab fa-steam" },
+        { name = "WhatsApp", link = "https://wa.me/919490470485", icon = "fab fa-whatsapp" },
+        { name = "WordPress", link = "https://bhaskarvilles.wordpress.com", icon = "fab fa-wordpress" },
+        { name = "Discord", link = "https://discord.com/users/bhaskarvilles.eth#7016", icon = "fab fa-discord" },
+        { name = "HackTheBox", link = "https://app.hackthebox.com/profile/bhaskarvilles", icon = "fas fa-box" },
+        { name = "Email", link = "mailto:bhaskarvilles@duck.com", icon = "fas fa-envelope" }
+    ]
+
+    # Content configuration
+    paginate = 20
+    showReadingTime = true
+    tocMinWordCount = 400
+    showFooter = true
+    amountLatestPostsInFooter = 7
+    amountCategoriesInFooter = 7
+
+    # Performance settings
+    [params.performance]
+        maxConcurrentReqs = 6
+        disableSpeculativePrefetch = false
+        prefetch = true
+        preconnect = true
+        preload = true
+
+    # UI settings
+    [params.ui]
+        darkModeToggle = true
+        scrollToTop = true
+        tocAutoCollapse = true
+        copyCode = true
+        socialShare = true
+        search = true
+        smoothScroll = true
+
+    # Header settings
+    [params.header]
+        desktopMode = "fixed"
+        mobileMode = "auto"
+        [params.header.title]
+            logo = ""
+            name = "root@secretcoder"
+            pre = ""
+            post = "⚕"
+            typeit = false
+
+    # Footer settings
+    [params.footer]
+        enable = true
+        custom = 'Tech, geopolitics, hacks, truths, activism, and humanitys future explored anonymously.'
+        hugo = false
+        copyright = true
+        author = true
+        since = 1999
+        license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = true
+        lineNos = true
+        lineNumbersInTable = true
+        noClasses = false
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    page = ["HTML"]
+    section = ["HTML", "RSS"]
+    taxonomy = ["HTML", "RSS"]
+    term = ["HTML", "RSS"]
+
+[privacy]
+    [privacy.x]
+        enableDNT = true
+    [privacy.youtube]
+        privacyEnhanced = true
+
+[sitemap]
+    changefreq = "daily"
+    filename = "sitemap.xml"
+    priority = 0.8
+
+[permalinks]
+    posts = "/:year/:month/:slug/"

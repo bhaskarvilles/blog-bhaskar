@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Customization on Ram&#39;s Website</title>
+    <link>http://localhost:1313/categories/customization/</link>
+    <description>Recent content in Customization on Ram&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/customization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resilience in Custom Linux Distributions: A Solution to Microsoft Windows Outages</title>
+      <link>http://localhost:1313/2024/07/resilience-in-custom-linux-distributions-a-solution-to-microsoft-windows-outages/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/07/resilience-in-custom-linux-distributions-a-solution-to-microsoft-windows-outages/</guid>
+      <description>&lt;p&gt;Microsoft Windows outages can be disruptive and costly, underscoring the need for more resilient alternatives. Custom Linux distributions offer robust solutions, tailored to specific needs, reducing the risk of widespread system failures.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;a href=&#34;https://images.moneycontrol.com/static-mcnews/2024/07/20240719092012_windows.jpg&#34; data-dimbox data-dimbox-caption=&#34;Blue Screen Of Death&#34;&gt;&#xA;    &lt;img src=&#34;https://images.moneycontrol.com/static-mcnews/2024/07/20240719092012_windows.jpg&#34; alt=&#34;Blue Screen Of Death&#34; /&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-impact-of-microsoft-windows-outages&#34;&gt;The Impact of Microsoft Windows Outages&lt;/h3&gt;&#xA;&lt;p&gt;Microsoft Windows is widely used across various sectors, from personal computing to enterprise environments. However, its popularity also makes it a prime target for cyberattacks and system failures. Recent outages have shown that even minor disruptions can lead to significant productivity losses, highlighting the need for more robust and adaptable operating systems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

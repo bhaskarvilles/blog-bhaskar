@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on Ram&#39;s Website</title>
+    <link>http://localhost:1313/tags/welcome/</link>
+    <description>Recent content in Welcome on Ram&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to My Blog</title>
+      <link>http://localhost:1313/2024/03/welcome-to-my-blog/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/03/welcome-to-my-blog/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog&lt;/h1&gt;&#xA;&lt;p&gt;Hello and welcome to my blog! I&amp;rsquo;m Bhaskar, a Tech Analyst &amp;amp; Geopolitical Observer. This space will be dedicated to exploring:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cutting-edge technology&lt;/li&gt;&#xA;&lt;li&gt;Geopolitical developments&lt;/li&gt;&#xA;&lt;li&gt;Ethical hacking&lt;/li&gt;&#xA;&lt;li&gt;Activism&lt;/li&gt;&#xA;&lt;li&gt;Humanity&amp;rsquo;s future&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll be sharing my insights and analysis on various topics that interest me and hopefully you too. The blog will feature:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technical tutorials&lt;/li&gt;&#xA;&lt;li&gt;Analysis of current events&lt;/li&gt;&#xA;&lt;li&gt;Personal experiences&lt;/li&gt;&#xA;&lt;li&gt;Thought-provoking discussions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Stay tuned for more content coming soon!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
